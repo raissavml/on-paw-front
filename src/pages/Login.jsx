@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import homeImage from '../images/home.svg';
+import Button from '../components/Button';
 
 const Background = styled.div`
   width: 100%;
@@ -53,15 +54,15 @@ const Login = () => (
       <h1>LOGO</h1>
       <h3>Tudo para amantes de pets em um só lugar!</h3>
       <ButtonsContainer>
-        <button type="button">Cadastre-se</button>
-        <button type="button">Esqueci a senha</button>
+        <Button>Cadastre-se</Button>
+        <Button>Esqueci a senha</Button>
       </ButtonsContainer>
     </LogoContainer>
     <Form>
       <h2>Login</h2>
       <input placeholder="Email" />
       <input placeholder="Senha" />
-      <button type="submit">Entrar</button>
+      <Button>Entrar</Button>
     </Form>
   </Background>
 );
