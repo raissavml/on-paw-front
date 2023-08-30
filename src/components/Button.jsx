@@ -2,9 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 
 export const Container = styled.button`
-  background: white;
-  color: blue;
+  background: var(--color4);
+  color: var(--color2);
   font-weight: 500;
+  opacity: 100%;
 
   padding: 16px 0px;
   border-radius: 10px;
@@ -14,7 +15,8 @@ export const Container = styled.button`
 
   &:hover {
     transition: 300ms;
-    background: yellow;
+    background: var(--color1);
+    color: var(--color6);
   }
 `;
 

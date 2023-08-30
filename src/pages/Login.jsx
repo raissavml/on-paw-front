@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import { FiLock, FiMail } from 'react-icons/fi';
 import homeImage from '../images/home.svg';
 import Button from '../components/Button';
+import Input from '../components/Input';
 
 const Background = styled.div`
   width: 100%;
@@ -44,8 +45,9 @@ const Form = styled.form`
   padding: 16px;
   margin-bottom: 25%;
 
-  color: 110f0d;
-  background-color: #fafedc;
+  color: var(--color6);
+  background-color: var(--color3);
+  opacity: 93%;
 `;
 
 const Login = () => (
@@ -60,8 +62,8 @@ const Login = () => (
     </LogoContainer>
     <Form>
       <h2>Login</h2>
-      <input placeholder="Email" />
-      <input placeholder="Senha" />
+      <Input Icon={FiMail} placeholder="Email" />
+      <Input Icon={FiLock} placeholder="Password" />
       <Button>Entrar</Button>
     </Form>
   </Background>
