@@ -16,6 +16,8 @@
     "react/function-component-definition": "off",
     "react/prop-types": "off",
     "react/jsx-props-no-spreading": "off",
-    "import/no-extraneous-dependencies": "off"
+    "import/no-extraneous-dependencies": "off",
+    "arrow-parens": "off",
+    "comma-dangle": "off"
   }
-}  
+}
