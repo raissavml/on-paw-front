@@ -14,11 +14,12 @@ export default createGlobalStyle`
   }
 
 :root{
-  --color1: #a3b18a;
-  --color2: #1c6278;
-  --color3: #f5f3f4;
-  --color4: #faedcd;
-  --color5: #cd9777;
-  --color6: #110f0d;
+  --color-primary: #a3b18a;
+  --color-primary-light: #b0bf90;
+  --color-secondary: #1c6278;
+  --color-white: #f5f3f4;
+  --color-off-white: #faedcd;
+  --color-contrast: #cd9777;
+  --color-black: #110f0d;
 }
 `;

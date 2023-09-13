@@ -5,7 +5,7 @@ import Login from '../pages/Login';
 
 const MainRoutes = () => (
   <Routes>
-    <Route path="/login" element={<Login />} />
+    <Route path="/" element={<Login />} />
   </Routes>
 );
 
